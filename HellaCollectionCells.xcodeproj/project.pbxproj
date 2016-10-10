@@ -12,6 +12,7 @@
 		1BCF18801DA6D7220045E980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF187E1DA6D7220045E980 /* Main.storyboard */; };
 		1BCF18821DA6D7220045E980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18811DA6D7220045E980 /* Assets.xcassets */; };
 		1BCF18851DA6D7220045E980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */; };
+		DDEC54E21DA9FCE7005903A0 /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC54E11DA9FCE7005903A0 /* HellaDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1BCF18811DA6D7220045E980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCF18841DA6D7220045E980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCF18861DA6D7220045E980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEC54E11DA9FCE7005903A0 /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1BCF187A1DA6D7220045E980 /* AppDelegate.swift */,
-				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
 				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
+				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
+				DDEC54E11DA9FCE7005903A0 /* HellaDetailViewController.swift */,
 				1BCF18811DA6D7220045E980 /* Assets.xcassets */,
 				1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */,
 				1BCF18861DA6D7220045E980 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */,
 				1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */,
+				DDEC54E21DA9FCE7005903A0 /* HellaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
